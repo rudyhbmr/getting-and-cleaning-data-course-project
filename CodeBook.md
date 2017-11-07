@@ -10,7 +10,7 @@ The structure of the data set is described in the [Data](#data) section, its var
 
 The `averages_tinydata.txt` data file is a text file, containing space-separated values.
 
-## Feature Variables <a name="variables"></a>
+## Variables <a name="variables"></a>
 
 Each row contains, for a given subject and activity, 66 averaged signal measurements.
 
@@ -30,7 +30,7 @@ Each row contains, for a given subject and activity, 66 averaged signal measurem
 	- `STANDING`: subject was standing
 	- `LAYING`: subject was laying
 
-### Average of measurements <a name="average-measurements"></a>
+### Measurements  <a name="measurements"></a>
 
 All measurements are floating-point values, normalised and bounded within [-1,1].
 
