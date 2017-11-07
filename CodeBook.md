@@ -46,7 +46,7 @@ The measurements are classified in two domains:
 
 #### Time-domain signals
 
--timeBodyAccelerometerMeanX
+- timeBodyAccelerometerMeanX
 -timeBodyAccelerometerMeanY
 -timeBodyAccelerometerMeanZ
 -timeBodyAccelerometerStandardDeviationX
