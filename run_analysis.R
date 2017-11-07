@@ -64,9 +64,11 @@ colnames(data_combined) <- gsub("std", "StandardDeviation", colnames(data_combin
 ## Execute stat package for aggregate function
 library(stats)
 
-## Creates a data set of the means of each variable based on ativity and subject
+## Create a data set of the means of each variable based on ativity and subject
 data_combined2 <- aggregate(. ~subject + activity, data_combined, mean)
 
 ## Sort by subject for a cleaner presentation
 data_combined2 <- data_combined2[order(data_combined2$subject, data_combined2$activity), ]
+
+## Create the data set needed called averages_tidydata.txt
 write.table(data_combined2, file = "averages_tidydata.txt", row.name = FALSE)
